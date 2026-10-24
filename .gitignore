@@ -1,0 +1,107 @@
+# ==============================
+# Python bytecode and caches
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==============================
+# Virtual environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+.env/
+virtualenv/
+pyvenv.cfg
+
+# ==============================
+# IDE and editor directories
+# ==============================
+.idea/
+.vscode/
+.vs/
+.spyderproject
+.spyproject
+.ropeproject
+.fleet/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ==============================
+# Testing, coverage and tooling caches
+# ==============================
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.ipynb_checkpoints/
+
+# ==============================
+# Packaging and build artifacts
+# ==============================
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+wheels/
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+*.pem
+*.key
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==============================
+# Local cipher/plaintext outputs generated while testing the CLI
+# (the sample ciphertexts in data/ are NOT ignored: the README uses them)
+# ==============================
+/message.txt
+/cipher.txt
+
+# ==============================
+# Practice 1 modules
+# Do NOT add rules here that ignore the Practice 1 files imported by
+# crypto.py / attack.py (caesar, affine, mono, vigenere, frequencies...).
+# They must be committed so the project runs after a fresh clone.
+# ==============================
