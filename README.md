@@ -333,21 +333,6 @@ Table 2 (key length) degrades much more slowly. It only needs the aligned values
 
 With a key length of 5, each coset has about 200/5 = 40 letters, and the key is recovered 99% of the time. With a length of 9, each coset has about 200/9 = 22.22 letters, the key is recovered 88% of the time. The attack fails with the longer key because each coset contains fewer letters, making the break_caesar fail.
 
-#### 3.6.3 A user of your tool asks how much ciphertext they need. Give them a rule of thumb, as a formula rather than a number.
-
-```
-3 -100
-4 - 125
-5 - 150 
-6 - 175
-7 -200
-8 - 250
-9 - 300
-10 -400
-```
-
-ns que poner la verdad
-
 ---
 
 ### 3.7 C3 — Columnar Transposition Breaker
