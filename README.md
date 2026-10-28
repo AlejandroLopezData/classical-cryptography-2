@@ -204,7 +204,7 @@ CRYPTANALYSIS has 13 letters, so there are only 13*12/2 = 78 pairs of positions.
 
 To decide the minimum length I have created 3 different texts and measured their IC. The results are that even with 50 letters you can stay over the random distance.
 
-The three generated texts are above the typical english IC (0.0667). It may be because of the number of “THE” and “ES”.
+The three generated texts are above the typical english IC (0.0667).
 
 You cannot say that every text of 50 letters will be over the randomness so I would say that there is an interval in which a text could be over the english IC and I would say that is around the 50 to 60 letters.
 
